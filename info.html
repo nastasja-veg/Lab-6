@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Основная информация</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="stylefilms.css"/>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                    <li class="nav-item">  
+                        <a class="nav-link disabled" href="#">В разработке</a>
+                    </li>
+                </ul>
+            </div>    
+        </nav>
+        <nav id="scrollspy" class="navbar navbar-light bg-light flex-column align-items-start p-3">
+            <a class="navbar-brand" href="#">Содержимое страницы</a>
+            <nav class="nav nav-pills flex-column">
+                <a class="nav-link" href="#carousel">Фотографии</a>
+                <a class="nav-link" href="#cards">Последние картины</a>
+                <a class="nav-link" href="#accordion">Информация об актёре</a>
+            </nav>    
+            <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#info">Общая информация</a>
+                <a class="nav-link ms-3 my-1" href="#youth">Ранние годы</a>
+                <a class="nav-link ms-3 my-1" href="#achievements">Первые достижения</a>
+                <a class="nav-link ms-3 my-1" href="#personal">Личная жизнь и общественная деятельность</a>
+            </nav>
+        </nav>
+        <h1>Джонатан Бейли</h1>
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="jb1.jpg" alt="Джонатан Бейли на премьере фильма">
+                        <div class="carousel-caption">
+                            <p>Джонатан Бейли на премьере фильма <i>«Злая: Сказка о ведьме Запада»</i> в Лос-Анджелесе. 9 ноября, 2024</p>
+                        </div>
+                    </div>  
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="jb3.jpg" alt="Evening Standard">
+                        <div class="carousel-caption">
+                            <p>Фотосессия для журнала <i>«Evening Standard»</i>. 2021</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="jb4.jpg" alt="Джонатан Бейли на репетиции спектакля">
+                        <div class="carousel-caption">
+                            <p>Джонатан Бейли и Джейд Аноука на репетиции спектакля. 2022</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="jb5.jpg" alt="Orlebar Brown">
+                        <div class="carousel-caption">
+                            <p>Фотосессия для летней коллекции бренда <i>«Orlebar Brown»</i>. 2024</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div id="cards" class="container mt-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 400px;">
+                            <img
+                                class="card-img-top"
+                                src="wicked_forgood.jpg"
+                                alt="Wicked: For Good"
+                                style="width: 100%;"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">Злая. Часть 2 (2025)</h4>
+                                <p class="card-text"> Продолжение истории взаимоотношений волшебниц страны Оз — Эльфабы и Глинды. Попытки Глинды примирить Эльфабу с Волшебником оказываются безуспешными, что лишь углубляет их конфликт.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/4941449/" class="btn btn-dark">Подробнее о фильме</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 400px;">
+                            <img
+                                class="card-img-top"
+                                src="jurassic.jpg"
+                                alt="Jurassic World: Rebirth"
+                                style="width: 100%;"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">Мир Юрского периода: Возрождение (2025)</h4>
+                                <p class="card-text"> Чтобы создать революционное лекарство от сердечных заболеваний, фармацевтическая компания снаряжает экспедицию на острова, которые населяют доисторические животные. Нужно взять образцы крови трёх самых больших морских, сухопутных и летающих динозавров.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/5450952/" class="btn btn-dark">Подробнее о фильме</a>
+                            </div>
+                        </div>    
+                    </div>      
+                    <div class="col">
+                        <div class="card" style="width: 400px;">
+                            <img
+                                class="card-img-top"
+                                src="wicked.jpg"
+                                alt="Wicked: Part I"
+                                style="width: 100%;"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">Злая: Сказка о ведьме Запада (2024)</h4>
+                                <p class="card-text"> История дружбы двух ведьм из страны Оз — злой Эльфабы и доброй Глинды.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/422170/" class="btn btn-dark">Подробнее о фильме</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">   
+                <div class="row">   
+                    <div class="col">
+                        <div class="card" style="width: 400px;">
+                            <img
+                                class="card-img-top"
+                                src="bridgerton.jpg"
+                                alt="Bridgerton"
+                                style="width: 100%;"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">Бриджертон (2020-...)</h4>
+                                <p class="card-text"> История о восьми дружных братьях и сестрах влиятельной семьи Бриджертонов, которые пытаются найти любовь.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/series/1278808/" class="btn btn-dark">Подробнее о сериале</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 400px;">
+                            <img
+                                class="card-img-top"
+                                src="the_young_messiah.jpg"
+                                alt="The Young Messiah"
+                                style="width: 100%;"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">Молодой мессия (2015)</h4>
+                                <p class="card-text"> Фильм рассказывает историю Иисуса Христа в возрасте семи лет, как он и его семья отправляются в Египет, чтобы вернуться домой в Назарет.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/464329/" class="btn btn-dark">Подробнее о фильме</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 400px;">
+                            <img
+                                class="card-img-top"
+                                src="testament_of_youth.jpg"
+                                alt="Testament of Youth"
+                                style="width: 100%;"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">Воспоминания о будущем (2014)</h4>
+                                <p class="card-text"> История Веры Бриттен, которая мечтала стать писательницей, но не смогла — её планы нарушает Первая мировая война. Девушка бросает учёбу в колледже и становится медсестрой. На плечи Веры ложится не только тяжесть потерь, но и ответственность за семью.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/682688/" class="btn btn-dark">Подробнее о фильме</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div id="accordion" class="m-3">
+                <div class="card">
+                    <div class="card-header">
+                        <a id="info" class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne">
+                            <b>Общая информация</b>
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Джонатан Стюарт Бейли – английский актёр театра и кино, получивший известность благодаря роли Энтони Бриджертона в драматическом сериале Netflix «Бриджертоны», за которую он получил номинацию на <mark>премию Американской Гильдии киноактёров</mark> в категории «Лучший актёрский ансамбль в драматическом сериале».
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a id="youth" class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                            <b>Ранние годы</b>
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Джонатан Бейли родился <mark>25 апреля 1988 года</mark> в деревне Бенсон (Оксфордшир) в семье бывшего управляющего директора компании Rowse Honey Стюарта Бейли. Он стал младшим из четырёх детей и единственным сыном. По его словам, Бейли решил, что хочет стать актёром, в возрасте пяти лет, увидев мюзикл «Оливер!». Он ходил в танцевальный клуб в Хенли-он-Темс, где в семь лет прошёл прослушивание и получил роль в постановке Королевской шекспировской труппы 1995 года <mark>«Рождественская песнь»</mark> в театре Барбикан в Лондоне. Бейли посещал местную начальную школу Benson C of E, получил продвинутую степень «А» в колледже Магдалины в Оксфорде. Он отложил поступление в Открытый университет и полностью посвятил себя актёрству.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a id="achievements" class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                            <b>Первые достижения</b>
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Актёр был номинирован на театральную премию «Evening Standard» 2012 года в категории <mark>«Выдающийся новичок»</mark> за роль в пьесе Дэвида Хэйра «Саут-Даунс». В 2013 году Бейли сыграл Тима Прайса в мюзикле «Американский психопат» на одной сцене вместе с Мэттом Смитом в лондонском театре Алмейда. В 2017 году Бейли появился вместе с Иэном Маккелленом, Шинейд Кьюсак и Дервлой Кирван в постановке <mark>«Короля Лира»</mark> театра Чичестера. В 2018 году он получил роль во втором возрождении мюзикла «Компания» театра Вест-Энда, сыграв Джейми (первоначально женский персонаж Эми). За эту работу в 2019 году Бейли получил <mark>премию Лоуренса Оливье</mark> в категории «Лучшая мужская роль второго плана в мюзикле».
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a id="personal" class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                            <b>Личная жизнь и общественная деятельность</b>
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Бейли свободен и живёт в Хове (Восточный Сассекс), где, по его словам, каждое утро плавает в море для «вдохновения, бодрости и восстановления». Он занимается <mark>велоспортом</mark>, участвует в марафонах и триатлонах, увлекается бодибилдингом и альпинизмом. В 2018 году Бейли совершил <mark>поход</mark> к базовому лагерю Эверест в Непале, в 2019 год принял участие в национальном конкурсе <mark>«Три вершины»</mark> с целью сбора средств для шотландского отделения Ассоциации по борьбе с Заболеванием двигательных нейронов. В 2024 году пробежал <mark>полумарафон</mark> в Хакни и учредил собственный благотворительный фонд.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div>     -->
+    </body>
+</html>
